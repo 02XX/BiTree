@@ -10,7 +10,7 @@ struct Node
 {
     Node * lchild;
     Node * rchild;
-    //tag = 1 mean point to its pre or next
+    //tag = 1 means point to its pre or next
     int ltag;
     int rtag;
     T data;
